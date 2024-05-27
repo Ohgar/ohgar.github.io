@@ -1,9 +1,9 @@
 const cacheName = "Orelli H-G-ohgar_github_page-1.0";
 const contentToCache = [
     "Build/WebGL.loader.js",
-    "Build/WebGL.framework.js.br",
-    "Build/WebGL.data.br",
-    "Build/WebGL.wasm.br",
+    "Build/WebGL.framework.js.unityweb",
+    "Build/WebGL.data.unityweb",
+    "Build/WebGL.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
