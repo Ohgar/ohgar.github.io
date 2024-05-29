@@ -1,0 +1,38 @@
+body {
+    background: #333;
+}
+
+.PageTitle {
+    position: relative;
+    top: var(--top, 0);
+    left: var(--left, 0);
+
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.PageSubtitle {
+    position: relative;
+    top: var(--top, 0);
+    left: var(--left, 0);
+
+    color: beige;
+}
+
+a.AppLink {
+    position: relative; 
+    top: var(--top, 0); 
+    left: var(--left, 0);
+
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.AppLink:hover {
+    background-color: beige;
+}
