@@ -49,3 +49,32 @@ a.AppLink {
 .AppLink:hover {
     background-color: beige;
 }
+
+.GameBall {
+    width: 25px;
+    height: 25px;
+    background-color: lightsteelblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: -100;
+}
+
+.GamePaddle {
+    width: 30px;
+    height: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+
+.LeftPaddle {
+    left: 0;
+}
+
+.RightPaddle {
+    right:0;
+}
