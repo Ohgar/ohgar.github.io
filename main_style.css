@@ -1,5 +1,8 @@
 body {
     background: #333;
+    /*background-image: url('blue_grid.png');
+    background-size: cover;
+    background-position: center;*/
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -7,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .Ribbon {
@@ -21,6 +24,12 @@ body {
 .Ribbon-Handle {
     margin-right: auto;
     margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Ribbon-Handle:hover{
+    color: dimgrey;
 }
 
 .Ribbon-Email{
@@ -39,8 +48,20 @@ body {
     margin-top: 50px;
 }
 
+.PageTitle a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.PageTitle a:hover {
+    color: dimgrey;
+}
+
 a.AppLink {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: aliceblue;
     color: black;
     padding: 0.5em 1em;
@@ -49,8 +70,15 @@ a.AppLink {
     border-radius: 4px;
     cursor: pointer;
     margin: 1em;
+    gap: 0.5em;
 }
 
 .AppLink:hover {
     background-color: beige;
+}
+
+.AppIcon img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
