@@ -1,4 +1,4 @@
-const cacheName = "Orelli H-G-Thorn Survivors-0.1";
+const cacheName = "Orelli H-G-Thorn Survivors-0.2";
 const contentToCache = [
     "Build/Thorn Survivors Web.loader.js",
     "Build/Thorn Survivors Web.framework.js",
