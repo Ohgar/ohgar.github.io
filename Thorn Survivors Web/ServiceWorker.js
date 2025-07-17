@@ -1,9 +1,9 @@
 const cacheName = "Orelli H-G-Thorn Survivors-0.2";
 const contentToCache = [
     "Build/Thorn Survivors Web.loader.js",
-    "Build/Thorn Survivors Web.framework.js.br",
-    "Build/Thorn Survivors Web.data.br",
-    "Build/Thorn Survivors Web.wasm.br",
+    "Build/Thorn Survivors Web.framework.js",
+    "Build/Thorn Survivors Web.data",
+    "Build/Thorn Survivors Web.wasm",
     "TemplateData/style.css"
 
 ];
